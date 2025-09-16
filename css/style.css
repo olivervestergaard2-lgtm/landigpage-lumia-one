@@ -1,0 +1,39 @@
+/* Grundopsætning for hele siden */
+body {
+  background-color: #f2f2f2;   /* Lys grå baggrund */
+  font-family: Arial, sans-serif;
+  color: #333;                 /* Mørk tekstfarve */
+  margin: 0;
+  padding: 0;
+}
+
+/* Overskrifter */
+h1, h2, h3 {
+  color: #0077cc;              /* Blå overskrifter */
+}
+
+/* Afsnit */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 20px;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Container (hvis du bruger det senere) */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
